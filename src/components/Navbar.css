@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+/* Navbar container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #650f13;
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 4.8rem;
+  padding: 0 1rem;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar logo and title */
+.logo_title_div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-logo {
+  width: 48px; /* Adjust to fit smaller screens */
+}
+
+.nav-logo img.logo2 {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+/* Title styling */
+.title {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #fefffe;
+  text-decoration: none;
+}
+
+/* Navigation links */
+nav ul {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav ul li {
+  position: relative; /* For dropdown positioning */
+}
+
+nav ul li a {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fefffe;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  border-bottom: 4px solid #2385b8;
+}
+
+/* Dropdown menu styling */
+.nav-item .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0e0e5c;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 0.5rem;
+  min-width: 200px;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdown-btn:hover {
+  background-color: #650f13;
+}
+
+/* Hamburger menu */
+.menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu span {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Mobile Navigation */
+ul.open {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  background-color: #650f13;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+ul.open li {
+  text-align: center;
+}
+
+ul.open li a {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Loading line below navbar */
+.loading-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #2385b8;
+  animation: loading-animation 1.5s linear infinite;
+  z-index: 101;
+}
+
+@keyframes loading-animation {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 50%;
+    left: 25%;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  nav {
+    height: 4rem;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 43px; /* Adjusted for tablet screens */
+  }
+
+  ul.open {
+    display: flex;
+  }
+
+  .logo_title_div {
+    gap: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-logo {
+    width: 40px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .menu {
+    width: 20px;
+    height: 15px;
+  }
+
+  ul.open li a {
+    font-size: 0.9rem;
+  }
+}

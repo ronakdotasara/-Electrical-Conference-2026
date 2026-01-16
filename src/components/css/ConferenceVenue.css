@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100&display=swap");
+
+.ConferenceVenue {
+  background-color: #02273d;
+  font-size: 4rem;
+  color: #d7d7f3;
+  width: 100%;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.ConferenceVenue::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.ConferenceVenue h1 {
+  position: relative;
+  left: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  z-index: 2;
+  font-size: 3.5rem;
+  width: 29%;
+  padding-bottom: 0.4rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.ConferenceVenue h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0;
+  background-color: #2385b8;
+  transition: width 0.45s ease, left 0.45s ease;
+  border-radius: 5rem;
+  animation: expandBorderBothWays 1s ease forwards;
+}
+
+@keyframes expandBorderBothWays {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.ConferenceVenue h1:hover::after {
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+@keyframes expandBorderOnHover {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+.dataHeader3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  gap: 1rem;
+}
+
+div.dataHeader3 {
+  margin-left: 0;
+}
+
+.Venue {
+  color: #650f13;
+  font-size: 1.8rem;
+  font-weight: bold;
+  /* margin-left: 22rem; */
+  margin-top: 2rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.imgimg {
+  width: 30%;
+  height: auto;
+  margin-top: 2rem;
+  /* margin-left: 32rem; */
+  border: 2px solid black;
+  border-radius: 0.3rem;
+}
+
+.Department_Info {
+  text-align: start;
+  line-height: 1.5;
+  width: 80%;
+  max-width: 1200px;
+  margin: 1rem auto;
+  color: #686967;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+@media (max-width: 1024px) {
+  .ConferenceVenue {
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .ConferenceVenue h1 {
+    left: 16%;
+    font-size: 2.5rem;
+    width: 68%;
+  }
+  .imgimg {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .ConferenceVenue {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+  }
+  .ConferenceVenue h1 {
+    left: 8%;
+    font-size: 2rem;
+    width: 80%;
+  }
+  .Venue {
+    margin-left: -4rem;
+  }
+  .imgimg {
+    width: 90%;
+  }
+  .Department_Info {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .ConferenceVenue {
+    font-size: 2rem;
+    padding: 1rem;
+    height: 7rem;
+  }
+  .ConferenceVenue h1 {
+    left: 0;
+    font-size: 1.6rem;
+    width: 55%;
+    left: 25%;
+    top: 30%;
+  }
+  .Venue {
+    margin-left: 0;
+    text-align: center;
+  }
+  .imgimg {
+    width: 100%;
+    margin-left: 0;
+  }
+  .Department_Info {
+    width: 100%;
+    text-align: center;
+  }
+}

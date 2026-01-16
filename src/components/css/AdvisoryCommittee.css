@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.AdvisoryCommittee {
+  position: relative;
+  background-color: black;
+  font-size: clamp(2rem, 4vw, 4rem);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.AdvisoryCommittee::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+/* .AdvisoryCommittee h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  padding-bottom: 0.4rem;
+  z-index: 2;
+  font-family: "Barlow", sans-serif;
+} */
+
+.AdvisoryCommittee h1 {
+  position: relative;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  z-index: 2; /* Position the text above the overlay */
+  font-size: 3.5rem;
+  /* color: #ebedef; */
+  width: 19%;
+  padding-bottom: 0.4rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.AdvisoryCommittee h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0;
+  background-color: #2385b8; /* Border color */
+  transition: width 0.45s ease, left 0.45s ease;
+  border-radius: 5rem;
+  animation: expandBorderBothWays 1s ease forwards;
+}
+@keyframes expandBorderBothWays {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.AdvisoryCommittee h1:hover::after {
+  /* border-bottom: 2px solid #2385b8; */
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+@keyframes expandBorderOnHover {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.cardMain1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 90%;
+}
+
+.advisory_names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: #0e0e5c;
+}
+
+.Honda {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  border: 1px solid #650f13;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Table Responsiveness */
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .cardMain1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AdvisoryCommittee {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .AdvisoryCommittee h1 {
+    font-size: 2.5rem;
+  }
+
+  .advisory_names {
+    font-size: 1rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lexend:wght@100&display=swap");
+
+.ReachNITH {
+  background-color: #02273d;
+  font-size: 4rem;
+  color: #d7d7f3;
+  width: 100%;
+  padding: 2rem 8rem 4rem 8rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.ReachNITH::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.ReachNITH h1 {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  z-index: 2;
+  font-size: 3.5rem;
+  width: fit-content;
+  padding-bottom: 0.4rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.ReachNITH h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0;
+  background-color: #2385b8;
+  transition: width 0.45s ease, left 0.45s ease;
+  border-radius: 5rem;
+  animation: expandBorderBothWays 1s ease forwards;
+}
+
+.ReachNITH h1:hover::after {
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4rem auto;
+  width: 80%;
+  gap: 2rem;
+  box-shadow: 0px 4px 12px rgba(172, 173, 172, 0.7);
+  background-color: #b9b7b7;
+  border-radius: 10px;
+}
+
+.pg1 {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #c6c5c5;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.pg1 h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+  color: #a03e09;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #cccbcb;
+  width: 100%;
+  text-align: center;
+}
+
+.pg1 p {
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-family: "Barlow", sans-serif;
+  color: #5b5b5a;
+}
+
+.pg2 {
+  flex: 1;
+  min-width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mapContainer1 {
+  width: 100%;
+  height: 60vh;
+  min-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(172, 173, 172, 0.7);
+}
+
+.coordinates1 {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 2%;
+  transform: translateX(-50%);
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0073e6;
+  white-space: nowrap;
+}
+
+.zoom-buttons1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.zoom-buttons1 button {
+  width: 4rem;
+  height: 1.8rem;
+  padding: 0.1rem;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.zoom-buttons1 button:hover {
+  background-color: #005bb5;
+}
+
+/* Animations */
+@keyframes expandBorderBothWays {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@keyframes expandBorderOnHover {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .ReachNITH {
+    padding: 2rem 5rem;
+    font-size: 3.5rem;
+  }
+
+  .book {
+    width: 90%;
+    gap: 1rem;
+  }
+  .zoom-buttons1 {
+    flex-direction: row;
+    gap: 5px;
+    bottom: -820px;
+    right: 15px;
+  }
+
+  .zoom-buttons1 button {
+    width: 3.3rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ReachNITH {
+    padding: 2rem 3rem;
+    font-size: 3rem;
+  }
+
+  .ReachNITH h1 {
+    font-size: 2.8rem;
+  }
+
+  .book {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+  }
+
+  .pg1,
+  .pg2 {
+    width: 100%;
+  }
+
+  .mapContainer1 {
+    height: 50vh;
+  }
+
+  .coordinates1 {
+    font-size: 0.9rem;
+  }
+  .zoom-buttons1 {
+    flex-direction: row;
+    gap: 5px;
+    bottom: -820px;
+    right: 15px;
+  }
+
+  .zoom-buttons1 button {
+    width: 3.3rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ReachNITH {
+    padding: 2rem 1rem;
+    font-size: 2.5rem;
+  }
+
+  .ReachNITH h1 {
+    font-size: 2.3rem;
+    width: 80%;
+  }
+
+  .book {
+    width: 95%;
+    gap: 1.2rem;
+  }
+
+  .pg1,
+  .pg2 {
+    width: 100%;
+  }
+
+  .mapContainer1 {
+    height: 40vh;
+  }
+
+  .zoom-buttons1 {
+    flex-direction: row;
+    gap: 5px;
+    bottom: -670px;
+    right: 15px;
+  }
+
+  .zoom-buttons1 button {
+    width: 3.3rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .coordinates1 {
+    font-size: 0.8rem;
+    top: 5px;
+  }
+}

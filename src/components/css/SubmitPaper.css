@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lexend:wght@100&display=swap");
+
+.SubmitPaper {
+  position: relative;
+  background-color: #02273d;
+  font-size: 4rem;
+  color: #d7d7f3;
+  width: 100%;
+  padding: 2rem;
+  padding-left: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.SubmitPaper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.SubmitPaper h1 {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8eaea;
+  z-index: 2;
+  font-size: 3.5rem;
+  width: fit-content;
+  padding-bottom: 0.4rem;
+  font-family: "Barlow", sans-serif;
+  left: -3%;
+}
+
+.SubmitPaper h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0;
+  background-color: #2385b8;
+  transition: width 0.45s ease, left 0.45s ease;
+  border-radius: 5rem;
+  animation: expandBorderBothWays 1s ease forwards;
+}
+
+.SubmitPaper h1:hover::after {
+  width: 100%;
+  left: 0;
+  animation: expandBorderOnHover 1s ease forwards;
+}
+
+/* Animations */
+@keyframes expandBorderBothWays {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@keyframes expandBorderOnHover {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.PaperSubmitData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  gap: 7rem;
+}
+
+.SubmitLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+
+.SubmitLink p span {
+  color: #222222;
+  font-size: 1.2rem;
+}
+.SubmitLink p span a {
+  font-size: 1.1rem;
+  color: #1155cc;
+  text-decoration: none;
+}
+
+.SubmitLink p span.linkupdate {
+  color: #1155cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SubmitLink p.downlink {
+  font-size: 1rem;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.Description span {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  color: #222222;
+  margin-top: 2rem;
+}
+
+.Description .para1,
+.Description .para2,
+.Description .para3 {
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+  color: #222222;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .SubmitPaper {
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .SubmitPaper h1 {
+    font-size: 2.5rem;
+  }
+  .PaperSubmitData {
+    width: 90%;
+    gap: 5rem;
+  }
+  .SubmitLink {
+    font-size: 1.2rem;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .SubmitPaper {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .SubmitPaper h1 {
+    font-size: 2rem;
+  }
+  .PaperSubmitData {
+    width: 100%;
+    gap: 4rem;
+  }
+  .SubmitLink {
+    font-size: 1rem;
+    gap: 1.5rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SubmitLink p.downlink {
+    width: 100%;
+    font-size: 1rem;
+    /* margin-left: 5rem; */
+    /* margin-right: -30rem; */
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .SubmitPaper {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .SubmitPaper h1 {
+    font-size: 2rem;
+    left: 3%;
+  }
+  .PaperSubmitData {
+    width: 90%;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .SubmitLink {
+    font-size: 0.9rem;
+    /* gap: 1rem; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .SubmitLink p.link span {
+    font-size: 0.9rem;
+    /* margin-left: 3rem; */
+  }
+  .SubmitLink p.link span a {
+    font-size: 0.9rem;
+    /* margin: 0 auto; */
+  }
+  .SubmitLink p.downlink span {
+    width: 100%;
+    font-size: 1rem;
+    /* margin-left: -34rem; */
+    text-align: center;
+  }
+  .SubmitLink p.downlink span a {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
