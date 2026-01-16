@@ -19,11 +19,11 @@ const DateSection = () => {
       <p className='ptwo'>Important Dates</p>
       <div className='dateboxes'>
         <div className='datebox'>
-            <p className='dateptwo'>Last Date of Paper Submission :</p>
-            <p className='datepone-updated'>31 March, 2026</p>
-            <p className='datepone-updated'>21 April, 2026</p>
+            <p className='dateptwo'>Last Date of Paper Submission:</p>
+            {/* <p className='datepone-updated'>31 March, 2026</p> */}
+            {/* <p className='datepone-updated'>21 April, 2026</p> */}
             {/* <p className='datepone-updated-date'>05 May, 2026 (Extended)</p> */}
-            <p className='datepone-updated-date'>12 May, 2026 (Hard Deadline)</p>
+            <p className='datepone'>12 May, 2026</p>
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Acceptance Notification : </p>
