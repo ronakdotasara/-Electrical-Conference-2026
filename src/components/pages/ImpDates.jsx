@@ -11,23 +11,23 @@ export const ImpDates = () => {
       <div className="dataHeader">
         <div className="datesec">
           <p className="dps">Full Paper Submission Deadline : </p>
-          <p className="dpe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>31 March, 2025</s>&nbsp;&nbsp;<s>21 April, 2025</s>&nbsp;&nbsp;&nbsp;12 May, 2025 (Hard Deadline)</p>
+          <p className="dpe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>31 March, 2026</s>&nbsp;&nbsp;<s>21 April, 2026</s>&nbsp;&nbsp;&nbsp;12 May, 2026 (Hard Deadline)</p>
         </div>
         <div className="datesec">
           <p className="dps">Notification of Acceptance : </p>
-          <p className="dpe">May 15, 2025</p>
+          <p className="dpe">May 15, 2026</p>
         </div>
         <div className="datesec">
           <p className="dps">Camera-Ready Paper Submission : </p>
-          <p className="dpe">June 05, 2025</p>
+          <p className="dpe">June 05, 2026</p>
         </div>
         <div className="datesec">
           <p className="dps">Last date for Registration :</p>
-          <p className="dpe">June 05, 2025</p>
+          <p className="dpe">June 05, 2026</p>
         </div>
         <div className="datesec">
           <p className="dps">Date of Conference :</p>
-          <p className="dpe">July 4-5, 2025</p>
+          <p className="dpe">July 4-5, 2026</p>
         </div>
       </div>
       <FooterSection/>

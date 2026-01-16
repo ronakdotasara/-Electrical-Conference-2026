@@ -58,19 +58,19 @@ const HeroSection = () => {
         <div className="logo">
         <img
             src={picsSpringerLogo}
-            // src="https://confcats-siteplex.s3.us-east-1.amazonaws.com/cdc25/large_Logo_CDC_2025_3e6db1dc79.png"
+            // src="https://confcats-siteplex.s3.us-east-1.amazonaws.com/cdc25/large_Logo_CDC_2026_3e6db1dc79.png"
             alt="PICS Logo"
             className="logo-image"
             height={100}
             width={100}
           />
         </div>
-        <div className="headdiv"><h1 className='head'>PICS-2025</h1></div>
+        <div className="headdiv"><h1 className='head'>PICS-2026</h1></div>
         <div className="subheaddiv"><h3 className='sub-head'>1st International Conference on Power and Intelligent Control System</h3></div>
-        <div className="datediv"><p className='date'>July 04 - 05, 2025</p></div>
+        <div className="datediv"><p className='date'>July 04 - 05, 2026</p></div>
         <div className="departmentdiv"><p className='department'>Department of Electrical Engineering</p></div>
         <div className="locationdiv"><p className='location'>National institute of technology, Hamirpur</p></div>
-        <div className="descriptivediv"><p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2025) is the first
+        <div className="descriptivediv"><p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2026) is the first
  international conference dedicated to power engineering, control systems,
  and artificial intelligence. It brings together researchers, academicians,
  and practitioners to share ideas, discuss emerging technologies, and
