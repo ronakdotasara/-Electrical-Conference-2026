@@ -136,7 +136,7 @@ body {
 } */
 
 .date {
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 12px;
   width: 200px;
   padding: 10px;
@@ -145,16 +145,22 @@ body {
   align-items: center;
   font-weight: 500;
   font-family: "Barlow", sans-serif;
-  /* margin-top: -4rem; */
   font-size: 1.3rem;
   margin-left: -2rem;
   margin-top: 0.5rem;
+
+  transition:
+    transform 0.1s ease-out,
+    border 0.1s ease,
+    box-shadow 0.1s ease;
 }
+
 .date:hover {
-  border: 3px solid #2385b8;
-  border-radius: 12px;
-  transition-duration: 2s ease-out;
+  border: 3px solid #126491;
+  transform: scale(1.05);
+  box-shadow: 0 4px 7px rgba(13, 123, 207, 0.504);
 }
+
 
 .department {
   margin-top: 10px;
