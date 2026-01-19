@@ -31,10 +31,8 @@ export const Committees = () => {
       <h3>Patron</h3>
     </div>
     <div className="names">
-      <span>Prof. Anoop Kumar,</span>
-      <span>Dean(Faculty Welfare), NITH</span>
-      <span>Dr. Archna Santosh Nanoty</span>
-      <span>Registrar, NITH</span>
+      <span>Prof. Sushil Chauhan,</span>
+   
       <span></span>
     </div>
   </div>
@@ -45,9 +43,8 @@ export const Committees = () => {
       <h3>Co-Patron</h3>
     </div>
     <div className="names">
-      <span>Dr. Bharat Bhusan Sharma,</span>
+      <span>Dr. OP Rahi,</span>
       <span>HOD, EED, NITH</span>
-      <span>Dr. O.P.Rahi, EED, NITH</span>
       <span></span>
     </div>
   </div>
@@ -143,7 +140,6 @@ export const Committees = () => {
       <h3>Technical Chair</h3>
     </div>
     <div className="names">
-      <span>Prof. Y. R. Sood, EED, NITH</span>
       <span>Prof. Sushil Chauhan, EED, NITH</span>
       <span>Prof. R. N. Sharma, EED, NITH</span>
       <span>Prof. Ashwani Chandel, EED,NITH</span>

@@ -14,7 +14,7 @@ import f from "../../assets/speaker 6th.jpeg";
 
 
 const cards = [
-  {
+  /*{
     id: 2,
     image: b,
     name: 'Prof. Radhakant Padhi',
@@ -49,7 +49,7 @@ const cards = [
     image: f,
     name: 'Prof. Sanjeevikumar Padmanaban',
     description: 'University of South-Eastern Norway',
-  },
+  },*/
 ];
 
 export const KeynoteSpeakers = () => {
