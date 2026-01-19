@@ -10,6 +10,7 @@ export const ConferenceOverview = () => {
       <p className="ConferenceOverview" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%'}}><h1>Conference Overview</h1></p>
       <div className="info">
       <p>The conference covers diverse research area, including but not limited to the following:</p>
+      <div className="flexbox">
       <div className="information1">
         <h3>Track 1 : Power Engineering</h3>
         <ul>
@@ -42,6 +43,7 @@ export const ConferenceOverview = () => {
           <li>Speech & Signal Processing</li>
           <li>Computer Vision</li>
         </ul>
+      </div>
       </div>
       </div>
       <FooterSection/>

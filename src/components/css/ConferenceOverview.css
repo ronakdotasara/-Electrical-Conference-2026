@@ -71,6 +71,7 @@
   align-items: center;
   gap: 2rem;
   padding: 2vw;
+  height: 50vh;
 }
 
 .info p {
@@ -100,6 +101,59 @@
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
+.information1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0;
+  transition: 
+    padding 0.3s ease,
+    margin 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.information1:hover {
+  padding: 25px;
+  margin: 0 10px;
+  box-shadow: 0 10px 30px rgba(13, 123, 207, 0.504);
+}
+.information2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0;
+  transition: 
+    padding 0.3s ease,
+    margin 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.information2:hover {
+  padding: 25px;
+  margin: 0 10px;
+  box-shadow: 0 10px 30px rgba(13, 123, 207, 0.504);
+}
+.information3 {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0;
+  transition: 
+    padding 0.3s ease,
+    margin 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.information3:hover {
+  padding: 20px 25px;
+  margin: 0 10px;
+  box-shadow: 0 10px 30px rgba(13, 123, 207, 0.504);
+}
+
+ .flexbox{
+  display: flex;
+  gap:20px;
+ }
 .information1 ul {
   padding-left: 25px;
 }
