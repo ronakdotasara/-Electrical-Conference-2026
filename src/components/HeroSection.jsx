@@ -5,7 +5,7 @@ import logo from "../assets/logo3.png";
 import nlogo from "../assets/nlogo.png";
 import nlogoblue from "../assets/PICSLOGO.png";
 import springerLogo from "../assets/springer-logo.jpeg";
-import picsSpringerLogo from "../assets/pics-springer-logo.jpeg";
+import picsSpringerLogo from "../assets/pics-springer-logo.png";
 import d from "../assets/d.png";
 import b from "../assets/b.png";
 import a from "../assets/a.png";
