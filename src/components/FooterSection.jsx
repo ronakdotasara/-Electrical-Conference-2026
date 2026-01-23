@@ -13,7 +13,7 @@ const FooterSection = () => {
         </div>
         <div className='footerright'>
             <p className='footerrightp'>© Copyright 2026 NITHamirpur - All rights reserved. Use of this website signifies your agreement to our Terms and Conditions. <br />
-            <br />The <a href="https://cmt3.research.microsoft.com">Microsoft CMT service</a> was used for
+            <br />The Microsoft CMT service was used for
 managing the peer-reviewing process for this conference. This service was provided for free
 by Microsoft and they bore all expenses, including costs for Azure cloud services as well as
 for software development and support.
