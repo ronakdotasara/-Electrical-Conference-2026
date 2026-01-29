@@ -34,6 +34,10 @@ const FooterSection = () => {
             >
               CMT Acknowledgement
             </a>
+            <br />
+            <a href='https://pics2025nith.com/' rel="noopener noreferrer" target="_blank" style={{ textDecoration: "underline", color: "inherit" }}>
+            PICS 2025</a>
+          
           </p>
         </div>
       </div>
