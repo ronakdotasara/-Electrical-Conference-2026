@@ -3,7 +3,7 @@ import "../components/css/DateSection.css";
 const DateSection = () => {
   return (
     <div className='datemain'>
-      <div className="banner-container">
+      {/* <div className="banner-container">
       <div className="marquee">
         <span>
           Important Update: The last date for paper submission to PICS-2026 has been extended to 31 March 2026 (Hard Deadline). 
@@ -14,7 +14,7 @@ const DateSection = () => {
           Authors are encouraged to submit their papers before the deadline. &nbsp; 🔔 
         </span>
       </div>
-    </div>
+      </div> */}
       <p className='pone'>Mark Your Calendar</p>
       <p className='ptwo'>Important Dates</p>
       <div className='dateboxes'>
