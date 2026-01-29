@@ -143,6 +143,8 @@
   font-size: 2rem;
   border: 1px solid #650f13;
   border-radius: 2rem;
+  padding: 10px 20px;
+  display: inline-block;
 }
 
 .organising_names {
@@ -272,4 +274,37 @@
     color: #0e0e5c;
     text-align: center;
   }
+}
+
+.committeeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.committeeTable th,
+.committeeTable td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.committeeTable th {
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+
+.positionCol {
+  font-weight: bold;
+  width: 25%;
+}
+
+.committeeTable ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.committeeTable li {
+  line-height: 1.6;
 }
