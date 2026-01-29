@@ -141,6 +141,7 @@ body {
   width: 200px;
   padding: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 500;
@@ -153,6 +154,9 @@ body {
     transform 0.1s ease-out,
     border 0.1s ease,
     box-shadow 0.1s ease;
+}
+.mode{
+  font-size: 0.8rem;
 }
 
 .date:hover {
