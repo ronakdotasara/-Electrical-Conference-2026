@@ -4,52 +4,46 @@ import "../css/KeynoteSpeakers.css";
 import backgroundImage from "../../assets/background.jpg.jpeg";
 import FooterSection from "../FooterSection";
 import keynote_speaker from "../../assets/keynote_speakers.png";
-import a from "../../assets/1KS.png";
-import b from "../../assets/2KS.png";
-import c from "../../assets/3KS.png";
-import d from "../../assets/4KS.png";
-import e from "../../assets/5KS.png";
-import f from "../../assets/speaker 6th.jpeg";
+import a from "../../assets/KS01.png";
+import b from "../../assets/KS02.png";
+import c from "../../assets/KS03.png";
+import d from "../../assets/KS04.png";
+import e from "../../assets/KS05.png";
 
 
 
 const cards = [
-  /*{
+  {
     id: 2,
     image: b,
-    name: 'Prof. Radhakant Padhi',
-    description: 'IISc Bangalore',
+    name: 'Prof. Sukumar Mishra,',
+    description: 'Director IIT Dhanbad',
   },
   {
     id: 3,
     image: c,
-    name: 'Prof. Bhaveshkumar R.Bhalija',
-    description: 'IIT Roorkee',
+    name: 'Prof. N. P. Padhy,',
+    description: 'Director MNIT Jaipur',
   },
   {
     id: 1,
     image: a,
-    name: 'Prof. Bhim Singh',
-    description: 'IIT Delhi',
+    name: 'Prof. Akshay Kumar Rathore, ',
+    description: 'NUS Singapore, Singapore',
   },
   {
     id: 4,
     image: d,
-    name: 'Prof. Rajesh Kumar',
-    description: 'University of Johannesburg',
+    name: 'Prof. Patrick Wheeler',
+    description: 'University of Nottingham, UK',
   },
   {
     id: 5,
     image: e,
-    name: 'Prof. Sisir Kumar Nayak',
-    description: 'IIT Guwahati',
+    name: 'Prof. Steven Li,  ',
+    description: 'Western New England University,  USA',
   },
-  {
-    id: 6,
-    image: f,
-    name: 'Prof. Sanjeevikumar Padmanaban',
-    description: 'University of South-Eastern Norway',
-  },*/
+  
 ];
 
 export const KeynoteSpeakers = () => {
