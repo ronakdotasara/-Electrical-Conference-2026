@@ -12,7 +12,7 @@ export const About=()=>{
       <div className="PaperSubmitData">
         <div className="SubmitLink">
             <p className="link">
-                <span>PICS 2025 Website: <a href="https://pics2025nith.com/">PICS 2025</a> </span>
+                <span>PICS 2025 Website: <a href="https://pics2025nith.com/">https://pics2025nith.com</a> </span>
             </p>
         </div>
       
