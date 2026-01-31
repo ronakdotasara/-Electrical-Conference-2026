@@ -82,7 +82,7 @@ const HeroSection = () => {
           Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass 
           these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) 
           are not considered for publication.</div>
-          <img src={ANRF} alt="ANRF" className='ANRF'/>
+          {/* <img src={ANRF} alt="ANRF" className='ANRF'/> */}
         <div className="logo">
         {/* <img
             src={springerLogo}
