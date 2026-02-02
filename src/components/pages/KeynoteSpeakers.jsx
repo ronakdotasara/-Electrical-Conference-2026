@@ -14,20 +14,20 @@ import e from "../../assets/KS05.png";
 
 const cards = [
   {
-    id: 2,
-    image: b,
+    id: 1,
+    image: a,
     name: 'Prof. Sukumar Mishra,',
     description: 'Director IIT Dhanbad',
   },
   {
-    id: 3,
-    image: c,
+    id: 1,
+    image: b,
     name: 'Prof. N. P. Padhy,',
     description: 'Director MNIT Jaipur',
   },
   {
-    id: 1,
-    image: a,
+    id: 3,
+    image: c,
     name: 'Prof. Akshay Kumar Rathore, ',
     description: 'NUS Singapore, Singapore',
   },
