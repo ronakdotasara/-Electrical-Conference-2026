@@ -67,7 +67,7 @@ const HeroSection = () => {
         </div>
         <div className="headdiv"><h1 className='head'>PICS-2026</h1></div>
         <div className="subheaddiv"><h3 className='sub-head'>2nd International Conference on Power and Intelligent Control System</h3></div>
-        <div className="datediv"><p className='date'>July 02-03, 2026<p className='mode'>(Hybrid Mode)</p></p></div>
+        <div className="datediv"><p className='date'>July 02-03, 2026</p><p className='date mode'>(Hybrid Mode)</p></div>
         <div className="departmentdiv"><p className='department'>Department of Electrical Engineering</p></div>
         <div className="locationdiv"><p className='location'>National institute of technology, Hamirpur</p></div>
         <div className="descriptivediv"><p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2026) is the second
