@@ -53,6 +53,7 @@ export const Navbar = () => {
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
+        
         <li>
           <div className="nav-item">
             <a to="/About" className="dropdown-toggle" onMouseEnter={toggleDropdown1} onClick={toggleDropdown1}>Call for Papers
@@ -97,6 +98,7 @@ export const Navbar = () => {
               {/* <NavLink className="dropdown-btn" to="/Author">Author Information</NavLink> */}
               <NavLink className="dropdown-btn" to="/SessionInfo">Session Information</NavLink>
               {/* <NavLink className="dropdown-btn" to="/Keynote">Keynote Speakers</NavLink> */}
+              <NavLink className="dropdown-btn" to="/About">About PICS 2025</NavLink>
             </div>
             )}
           </div>

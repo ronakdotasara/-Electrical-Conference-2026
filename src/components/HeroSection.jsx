@@ -5,7 +5,7 @@ import logo from "../assets/logo3.png";
 import nlogo from "../assets/nlogo.png";
 import nlogoblue from "../assets/PICSLOGO.png";
 import springerLogo from "../assets/springer-logo.jpeg";
-import picsSpringerLogo from "../assets/pics-springer-logo.png";
+import picsSpringerLogo from "../assets/LOGO_PICS_2026.png";
 import d from "../assets/d.png";
 import b from "../assets/b.png";
 import a from "../assets/a.png";
@@ -67,22 +67,17 @@ const HeroSection = () => {
         </div>
         <div className="headdiv"><h1 className='head'>PICS-2026</h1></div>
         <div className="subheaddiv"><h3 className='sub-head'>2nd International Conference on Power and Intelligent Control System</h3></div>
-        <div className="datediv"><p className='date'>July 02-03, 2026</p></div>
+        <div className="datediv"><p className='date'>July 02-03, 2026</p><p className='date mode'>(Hybrid Mode)</p></div>
         <div className="departmentdiv"><p className='department'>Department of Electrical Engineering</p></div>
         <div className="locationdiv"><p className='location'>National institute of technology, Hamirpur</p></div>
-        <div className="descriptivediv"><p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2026) is the first
+        <div className="descriptivediv"><p className='descriptive-text'>The Power and Intelligent Control Systems (PICS-2026) is the second
  international conference dedicated to power engineering, control systems,
  and artificial intelligence. It brings together researchers, academicians,
  and practitioners to share ideas, discuss emerging technologies, and
  inspire transformative advancements. Join us in shaping the future of
  these dynamic fields!</p></div>
-        <div className='descriptive-text-springer'>It is planned to publish the peer reviewed and selected papers of conference as 
-          proceedings with Springer in their prestigious “Lecture Notes in Electrical Engineering” series (<a href="https://www.springer.com/series/7818">https://www.springer.com/series/7818</a>). 
-          For detailed instructions for author and editors of conference proceedings, kindly visit the following link: <a href="https://www.springer.com/us/authors-editors/conference-proceedings">https://www.springer.com/us/authors-editors/conference-proceedings</a>. 
-          Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass 
-          these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) 
-          are not considered for publication.</div>
-          <img src={ANRF} alt="ANRF" className='ANRF'/>
+        <div className='descriptive-text-springer'>It is proposed to publish the peer-reviewed and selected papers of the conference as proceedings with Springer <b>(Pending approval) </b>.</div>
+          {/* <img src={ANRF} alt="ANRF" className='ANRF'/> */}
         <div className="logo">
         {/* <img
             src={springerLogo}

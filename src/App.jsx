@@ -12,6 +12,7 @@ import PDFViewer from "./components/PDFviewer";
 import { Registration } from "./components/pages/Registration";
 import { Sponsorship } from "./components/pages/Sponsorship";
 import { SubmitPaper } from "./components/pages/SubmitPaper";
+import { About } from "./components/pages/About";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/AdvisoryCommittee" element={<AdvisoryCommittee/>} />
         <Route path="/Sponsorship" element={<Sponsorship/>} />
         <Route path="/SubmitPaper" element={<SubmitPaper/>} />
+        <Route path="/About" element={<About/>}/>
       {/* <HeroSection/> */}
       {/* <DateSection/> */}
       {/* <FooterSection/> */}

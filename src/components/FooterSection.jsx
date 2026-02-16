@@ -1,5 +1,6 @@
 import React from 'react'
 import "../components/css/FooterSection.css"
+import {Link} from "react-router-dom"
 
 const FooterSection = () => {
   return (
@@ -34,6 +35,10 @@ const FooterSection = () => {
             >
               CMT Acknowledgement
             </a>
+            <br />
+            <Link to="/About"  style={{ textDecoration: "underline", color: "inherit" }}>
+            PICS 2025</Link>
+          
           </p>
         </div>
       </div>
