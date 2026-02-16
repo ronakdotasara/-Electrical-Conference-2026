@@ -76,12 +76,7 @@ const HeroSection = () => {
  and practitioners to share ideas, discuss emerging technologies, and
  inspire transformative advancements. Join us in shaping the future of
  these dynamic fields!</p></div>
-        <div className='descriptive-text-springer'>It is planned to publish the peer reviewed and selected papers of conference as 
-          proceedings with Springer in their prestigious “Lecture Notes in Electrical Engineering” series (<a href="https://www.springer.com/series/7818">https://www.springer.com/series/7818</a>). 
-          For detailed instructions for author and editors of conference proceedings, kindly visit the following link: <a href="https://www.springer.com/us/authors-editors/conference-proceedings">https://www.springer.com/us/authors-editors/conference-proceedings</a>. 
-          Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass 
-          these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) 
-          are not considered for publication.</div>
+        <div className='descriptive-text-springer'>It is proposed to publish the peer-reviewed and selected papers of the conference as proceedings with Springer <b>(Pending approval) </b>.</div>
           {/* <img src={ANRF} alt="ANRF" className='ANRF'/> */}
         <div className="logo">
         {/* <img
