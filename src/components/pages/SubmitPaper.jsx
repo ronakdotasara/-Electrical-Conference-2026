@@ -19,11 +19,12 @@ export const SubmitPaper = () => {
             </p>
         </div>
         <div className="Description">
-          <p className="para1">
-            It is proposed to publish the peer-reviewed and selected papers of the conference as proceedings with Springer in their prestigious Lecture Notes in Electrical Engineering (LNEE) series, subject to final approval. Selected papers will be considered for publication after completion of the peer-review process and fulfillment of Springer’s quality requirements. Springer will conduct its own quality checks, and only papers that successfully pass these checks will be published. Springer Nature does not charge any fee for publication of Non-Open Access content. Abstracts, extended abstracts, and short papers (less than 4 pages) will not be considered for publication.          </p>
-            {/* <span>Paper Format and Length</span>
-            <p className="para1">Springer format with maximum 10 pages (including references) during paper submission. To take care of reviewers' comments, one more page is allowed (without any charge) during revised/camera ready submission. Moreover, authors may purchase up to 2 extra pages. Extra page charges must be paid at the time of registration.</p> */}
-            <p className="para2">Springer paper formatting instructions and templates for PICS-2026 are available here <a href="https://drive.google.com/file/d/1tYPp2cGK2BS4f4fB8EqpTLRvzEqIXaxz/view">Word template</a> and <a href="https://www.overleaf.com/latex/templates/springer-conference-proceedings-template-updated-2022-01-12/wcvbtmwtykqj">Latex</a> .
+          {/* <p className="para1">
+            It is proposed to publish the peer-reviewed and selected papers of the conference as proceedings with Springer in their prestigious Lecture Notes in Electrical Engineering (LNEE) series, subject to final approval. Selected papers will be considered for publication after completion of the peer-review process and fulfillment of Springer’s quality requirements. Springer will conduct its own quality checks, and only papers that successfully pass these checks will be published. Springer Nature does not charge any fee for publication of Non-Open Access content. Abstracts, extended abstracts, and short papers (less than 4 pages) will not be considered for publication.          
+            </p> */}
+            <p className="para1">It is proposed to publish the peer-reviewed and selected papers of the conference as proceedings with Springer <b>(Pending approval)</b>. </p>
+          
+           <p className="para2">Springer paper formatting instructions and templates for PICS-2026 are available here <a href="https://drive.google.com/file/d/1tYPp2cGK2BS4f4fB8EqpTLRvzEqIXaxz/view">Word template</a> and <a href="https://www.overleaf.com/latex/templates/springer-conference-proceedings-template-updated-2022-01-12/wcvbtmwtykqj">Latex</a> .
               Authors are requested to prepare their manuscripts using the Springer Conference Proceedings format for uniformity and to facilitate the publication process.</p>
             <p className="para3">Please submit your paper here: <a href="https://cmt3.research.microsoft.com/PICS2026">https://cmt3.research.microsoft.com/PICS2026</a></p>
         </div>
