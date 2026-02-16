@@ -5,7 +5,7 @@ import logo from "../assets/logo3.png";
 import nlogo from "../assets/nlogo.png";
 import nlogoblue from "../assets/PICSLOGO.png";
 import springerLogo from "../assets/springer-logo.jpeg";
-import picsSpringerLogo from "../assets/LOGO_PICS_2026.png";
+import picsSpringerLogo from "../assets/pics-springer-logo-2026.jpeg";
 import d from "../assets/d.png";
 import b from "../assets/b.png";
 import a from "../assets/a.png";
@@ -63,9 +63,9 @@ const HeroSection = () => {
             className="logo-image"
             height={100}
             width={100}
-          />
+          /><div className='caps'>(Pending Approval)</div>
         </div>
-        <div className="headdiv"><h1 className='head'>PICS-2026</h1></div>
+        <div className=""><h1 className='head'>PICS-2026</h1></div>
         <div className="subheaddiv"><h3 className='sub-head'>2nd International Conference on Power and Intelligent Control System</h3></div>
         <div className="datediv"><p className='date'>July 02-03, 2026</p><p className='date mode'>(Hybrid Mode)</p></div>
         <div className="departmentdiv"><p className='department'>Department of Electrical Engineering</p></div>
