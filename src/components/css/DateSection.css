@@ -124,6 +124,7 @@
 }
 
 .datepone-updated {
+  text-decoration: line-through;
   text-decoration-thickness: 3px;
   text-decoration-color: red;
   font-size: 21px;
