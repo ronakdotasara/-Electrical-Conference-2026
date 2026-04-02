@@ -107,7 +107,7 @@
 .Register_data p {
   font-size: 1.6rem;
   font-family: "Barlow", sans-serif;
-  margin-top: 3rem;
+  margin-top: 0rem;
   font-weight: 600;
 }
 .Register_data p span {
@@ -157,7 +157,7 @@
   font-family: "Barlow", sans-serif;
 }
 .instruction {
-  margin-top: 4rem;
+  margin-top: 0rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
