@@ -63,7 +63,8 @@ const HeroSection = () => {
             className="logo-image"
             height={100}
             width={100}
-          /><div className='caps'>(Pending Approval)</div>
+          />
+          {/* <div className='caps'>(Pending Approval)</div> */}
         </div>
         <div className=""><h1 className='head'>PICS-2026</h1></div>
         <div className="subheaddiv"><h3 className='sub-head'>2nd International Conference on Power and Intelligent Control System</h3></div>
@@ -76,7 +77,12 @@ const HeroSection = () => {
  and practitioners to share ideas, discuss emerging technologies, and
  inspire transformative advancements. Join us in shaping the future of
  these dynamic fields!</p></div>
-        <div className='descriptive-text-springer'>It is proposed to publish the peer-reviewed and selected papers of the conference as proceedings with Springer <b>(Pending approval) </b>.</div>
+        <div className='descriptive-text-springer'> 
+          It is planned to publish the peer reviewed and selected papers of conference as proceedings with Springer in their prestigious “Lecture Notes in Electrical Engineering” series. For detailed instructions for authors and editors of conference proceedings, 
+          kindly visit the following link: <a href='https://www.springer.com/us/authors-editors/conference-proceedings'> https://www.springer.com/us/authors-editors/conference-proceedings</a>. Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication. All communication regarding the proceedings must be directed to the conference organizers or volume editors. Paper authors should not contact Springer Nature directly.
+
+
+        </div>
           {/* <img src={ANRF} alt="ANRF" className='ANRF'/> */}
         <div className="logo">
         {/* <img
