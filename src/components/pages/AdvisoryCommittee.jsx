@@ -11,7 +11,7 @@ export const AdvisoryCommittee = () => {
   const professors = [
   { name: "Prof. Patrick Wheeler", institute: "University of Nottingham, UK" },
   { name: "Prof. S. Padmanaban", institute: "University of South-Eastern, Norway" },
-  { name: "Prof. Frede Blaabjerg", institute: "Aalborg University, Denmark" },
+  // { name: "Prof. Frede Blaabjerg", institute: "Aalborg University, Denmark" },
   { name: "Prof. Ramesh Bansal", institute: "University of Sharjah, UAE" },
   { name: "Prof. Mohamed Benbouzid", institute: "University of Brest, France" },
   { name: "Prof. Akhtar Kalam", institute: "Victoria University, Australia" },
