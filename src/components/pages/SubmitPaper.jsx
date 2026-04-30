@@ -14,9 +14,9 @@ export const SubmitPaper = () => {
             <p className="link">
                 <span>The link for the papers submission is  : <a href="https://cmt3.research.microsoft.com/PICS2026">https://cmt3.research.microsoft.com/PICS2026</a> </span>
             </p>
-            <p className="downlink">
+            {/* <p className="downlink">
                 <span>Download the <a href={Brochure} className="linkupdate">CALL FOR PAPERS</a></span>
-            </p>
+            </p> */}
         </div>
         <div className="Description">
           {/* <p className="para1">
