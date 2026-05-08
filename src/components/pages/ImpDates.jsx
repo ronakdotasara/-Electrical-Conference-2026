@@ -15,7 +15,7 @@ export const ImpDates = () => {
         </div>
         <div className="datesec">
           <p className="dps">Notification of Acceptance : </p>
-          <p className="dpe">May 15, 2026</p>
+          <p className="dpe"><s>May 15, 2026</s> &nbsp; 31 May, 2026</p>
         </div>
         <div className="datesec">
           <p className="dps">Camera-Ready Paper Submission : </p>

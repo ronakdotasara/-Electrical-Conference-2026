@@ -26,7 +26,8 @@ const DateSection = () => {
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Acceptance Notification : </p>
-            <p className='datepone'>15 May, 2026</p>
+            <p className='datepone-updated'>15 May, 2026</p>
+            <p className='datepone-updated-date'>31 May, 2026</p>
         </div>
         <div className='datebox'>
             <p className='dateptwo'>Camera Ready Paper Submission : </p>

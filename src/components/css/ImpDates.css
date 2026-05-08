@@ -223,6 +223,9 @@
 .datesec:nth-child(1) .dpe {
   color: red;
 }
+.datesec:nth-child(2) .dpe {
+  color: red;
+}
 
 .Date,
 .Date2 {
