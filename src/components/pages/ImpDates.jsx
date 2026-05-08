@@ -11,7 +11,7 @@ export const ImpDates = () => {
       <div className="dataHeader">
         <div className="datesec">
           <p className="dps">Full Paper Submission Deadline : </p>
-          <p className="dpe"><s>21 April, 2026</s> &nbsp; 07 May, 2026</p>
+          <p className="dpe"><s>07 May, 2026</s> &nbsp; 21 May, 2026 (Hard Deadline)</p>
         </div>
         <div className="datesec">
           <p className="dps">Notification of Acceptance : </p>
