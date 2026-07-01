@@ -8,7 +8,6 @@ import a from "../../assets/KS01.png";
 import b from "../../assets/KS02.png";
 import c from "../../assets/KS03.png";
 import d from "../../assets/KS04.png";
-import e from "../../assets/KS05.png";
 
 
 
@@ -20,7 +19,7 @@ const cards = [
     description: 'Director IIT Dhanbad',
   },
   {
-    id: 1,
+    id: 2,
     image: b,
     name: 'Prof. N. P. Padhy,',
     description: 'Director MNIT Jaipur',
@@ -28,20 +27,14 @@ const cards = [
   {
     id: 3,
     image: c,
-    name: 'Prof. Akshay Kumar Rathore, ',
-    description: 'NUS Singapore, Singapore',
+    name: 'Prof.  Bidyadhar Subudhi ',
+    description: 'Director, NIT Warrangal',
   },
   {
     id: 4,
     image: d,
     name: 'Prof. Patrick Wheeler',
     description: 'University of Nottingham, UK',
-  },
-  {
-    id: 5,
-    image: e,
-    name: 'Prof. Steven Li,  ',
-    description: 'Western New England University,  USA',
   },
   
 ];
